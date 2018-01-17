@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/layout_charity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:selectableItemBackground"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/padding">
+
+        <ImageView
+            android:id="@+id/img_icon"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:padding="@dimen/_4sdp"
+            android:tint="@color/color_red_tint"
+            app:srcCompat="@drawable/ic_circle_between_hands" />
+
+
+        <com.holding.medis.components.TextViewCell
+            android:id="@+id/txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/_2sdp"
+            android:singleLine="true"
+            android:textColor="@color/selector_gray_dark"
+            android:textSize="@dimen/text_message"
+            app:vc_font="IRANSansMobile_Bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <com.holding.medis.components.TextViewCell
+                    android:id="@+id/txt_currency"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_2sdp"
+                    android:singleLine="true"
+                    android:text="@string/amount"
+                    android:textColor="@color/selector_gray_light"
+                    android:textSize="@dimen/_10sdp"
+                    app:vc_font="IRANSansMobile" />
+
+                <com.holding.medis.components.EditTextCell
+                    android:id="@+id/edt_price"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_23sdp"
+                    android:layout_gravity="center"
+                    android:inputType="number"
+                    android:background="@drawable/border_search_view"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:tint="@color/selector_gray_dark"
+                    android:textSize="@dimen/_10sdp" />
+            </LinearLayout>
+
+            <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                android:id="@+id/seek_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:dsb_indicatorColor="@color/color_primary"
+                app:dsb_progressColor="@color/color_accent"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/selector_smoke_white_normal"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_30sdp"/>
+
+</LinearLayout>

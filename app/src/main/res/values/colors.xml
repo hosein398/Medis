@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Selectors -->
+    <color name="selector_normal">@android:color/transparent</color>
+    <color name="selector_white_normal">#FFFFFF</color>
+    <color name="selector_brown_light">#f9f7ef</color>
+    <color name="selector_brown_normal">#eaeae5</color>
+    <color name="selector_brown_dark">#e2decc</color>
+    <color name="selector_smoke_white_light">#F5F5F5</color>
+    <color name="selector_smoke_white_normal">#ebebeb</color>
+    <color name="selector_smoke_white_d_normal">#e2e2e2</color>
+    <color name="selector_smoke_white_dark">#d2d2d2</color>
+    <color name="selector_gray_light">#818080</color>
+    <color name="selector_gray_normal">#767575</color>
+    <color name="selector_gray_dark">#5f5e5e</color>
+    <color name="selector_white_focused">#22FFFFFF</color>
+    <color name="selector_white_pressed">#33FFFFFF</color>
+    <color name="selector_black_focused">#12000000</color>
+    <color name="selector_black_pressed">#1F000000</color>
+    <color name="selector_red_focused">#22D50000</color>
+    <color name="selector_red_pressed">#44D50000</color>
+    <color name="selector_green_focused">#2200C853</color>
+    <color name="selector_green_pressed">#4400C853</color>
+    <color name="selector_blue_focused">#222962FF</color>
+    <color name="selector_blue_pressed">#442962FF</color>
+    <color name="selector_purple_focused">#22AA00FF</color>
+    <color name="selector_purple_pressed">#44AA00FF</color>
+    <color name="selector_dark_focused">#22252525</color>
+    <color name="selector_dark_pressed">#440b0b0b</color>
+    <color name="selector_default_focused">#22517da2</color>
+    <color name="selector_default_pressed">#44517da2</color>
+    <color name="selector_brown_focused">#22352623</color>
+    <color name="selector_brown_pressed">#44352623</color>
+
+    <!-- Material Color Palette -->
+
+    <color name="material_default_normal">#517da2</color>
+    <color name="material_default_dark">#416480</color>
+    <color name="material_defaulr_light">#6aa0ce</color>
+
+
+
+    <color name="material_brown_500">#846059</color>
+    <color name="material_brown_600">#70514b</color>
+    <color name="material_brown_700">#563e3a</color>
+    <color name="material_brown_a700">#352623</color>
+    <color name="material_brown_a800">#261b19</color>
+
+
+    <color name="material_red_500">#F44336</color>
+    <color name="material_red_600">#E53935</color>
+    <color name="material_red_700">#ea3535</color>
+    <color name="material_red_a700">#D50000</color>
+    <color name="material_red_a800">#b30000</color>
+
+    <color name="material_green_500">#2bb4aa</color>
+    <color name="material_green_600">#219e95</color>
+    <color name="material_green_700">#187e77</color>
+    <color name="material_green_a700">#0f5c57</color>
+    <color name="material_green_a800">#0d514d</color>
+    <color name="material_green_300">#33cfc4</color>
+
+
+    <color name="material_blue_500">#3aacfa</color>
+    <color name="material_blue_600">#29a6fc</color>
+    <color name="material_blue_700">#1996ec</color>
+    <color name="material_blue_a700">#107bc4</color>
+    <color name="material_blue_a800">#0d6bab</color>
+
+    <color name="material_purple_500">#3f12ea</color>
+    <color name="material_purple_600">#390edc</color>
+    <color name="material_purple_700">#330cc7</color>
+    <color name="material_purple_a700">#23068e</color>
+    <color name="material_purple_a800">#1a046b</color>
+
+
+    <color name="material_Dark_500">#868686</color>
+    <color name="material_Dark_600">#5e5e5e</color>
+    <color name="material_Dark_700">#464646</color>
+    <color name="material_Dark_a700">#282828</color>
+    <color name="material_Dark_a800">#202020</color>
+    <color name="material_Dark_800">#1e1e1e</color>
+
+    <color name="color_primary">#FF6B6B</color>
+    <color name="color_primary_dark">#d13f3f</color>
+    <color name="color_accent">#D38312</color>
+    <color name="color_red_tint">#fad1d1</color>
+
+
+
+    <!-- Notification Color -->
+    <color name="notification_background">#CC2f2f2f</color>
+    <color name="notification_color_white">#FFFFFF</color>
+
+    <color name="colorDarkGray">#3e3e3e</color>
+    <color name="black">#000000</color>
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logout_bg">#f00b00</color>
+    <color name="default_shadow_color">#88757575</color>
+    <color name="default_fill_color">#ffffff</color>
+
+    <!-- Steper -->
+    <color name="ms_black">#000000</color>
+    <color name="ms_black_87_opacity">#DD000000</color>
+    <color name="ms_black_38_opacity">#61000000</color>
+    <color name="ms_white">#FFFFFF</color>
+    <color name="ms_white_54_opacity">#89FFFFFF</color>
+    <color name="ms_material_blue_500">#2196f3</color>
+    <color name="ms_material_grey_400">#BDBDBD</color>
+    <color name="ms_errorColor">#f44336</color>
+    <color name="ms_selectedColor">@color/ms_material_blue_500</color>
+    <color name="ms_unselectedColor">@color/ms_material_grey_400</color>
+    <color name="ms_bottomNavigationButtonTextColor">@color/ms_material_grey_400</color>
+    <color name="ms_bottomNavigationBackgroundColor">#FFFFFF</color>
+    <color name="ms_defaultButtonBackgroundColor">#15000000</color>
+    <color name="ms_defaultContentOverlayColor">@color/ms_white_54_opacity</color>
+
+
+    <!-- SunDate -->
+    <color name="colorPrimary">#FF6B6B</color>
+    <color name="colorPrimaryDark">#d13f3f</color>
+    <color name="gray">#808080</color>
+    <color name="transparent_black">#20000000</color>
+    <color name="transparent_white">#85ffffff</color>
+</resources>

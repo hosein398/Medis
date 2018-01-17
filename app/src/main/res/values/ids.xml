@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="cafe_book_tag_id" type="id"/>
+
+    <!-- ExpandableTextView -->
+    <item type="id" name="expandable_text"/>
+    <item type="id" name="expand_collapse"/>
+
+
+    <!-- StickyHeaders -->
+    <item name="sectioning_adapter_tag_key_view_viewholder" type="id"/>
+
+
+    <!-- TreeNode -->
+    <item name="node_header" type="id" />
+    <item name="node_items" type="id" />
+    <item name="tree_items" type="id" />
+
+</resources>

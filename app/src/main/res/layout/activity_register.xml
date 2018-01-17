@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.holding.medis.components.flowinggradient.FlowingGradient
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:transition_drawable="@drawable/trans"
+                app:transition_duration="4000" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layoutDirection="ltr"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/btn_back"
+                    android:layout_width="@dimen/toolbar_height"
+                    android:layout_height="match_parent"
+                    android:background="?android:selectableItemBackground"
+                    android:padding="@dimen/_14sdp"
+                    android:tint="@color/white"
+                    app:srcCompat="@drawable/ic_arrow_back_black_96dp" />
+
+                <com.holding.medis.components.TextViewCell
+                    android:id="@+id/txt_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/register"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_title"
+                    app:vc_font="IRANSansMobile_Bold"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"></LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="@dimen/toolbar_height"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/btn_register"
+                        android:layout_width="@dimen/toolbar_height"
+                        android:layout_height="match_parent"
+                        android:background="?android:selectableItemBackground"
+                        android:padding="@dimen/_14sdp"
+                        android:tint="@color/white"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/ic_check_black_24dp" />
+
+                    <ProgressBar
+                        android:id="@+id/prg_register"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_gravity="center"
+                        android:indeterminateTint="@color/white"
+                        android:visibility="gone" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+        </FrameLayout>
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/toolbar_height"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:gravity="center_vertical">
+
+                <com.holding.medis.components.CircleView
+                    android:id="@+id/circleview_title"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    app:cv_backgroundColorValue="@color/selector_blue_focused"
+                    app:cv_fillColor="@color/selector_blue_focused"
+                    app:cv_strokeColorValue="@color/selector_blue_focused"
+                    app:cv_strokeWidthSize="0"
+                    app:cv_subtitleText=""
+                    app:cv_titleColor="@color/white"
+                    app:cv_titleSize="@dimen/_15sdp"
+                    app:cv_titleText="" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical">
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_firstname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_left"
+                        android:layout_marginRight="@dimen/margin_right"
+                        android:gravity="left"
+                        android:inputType="text"
+                        android:singleLine="true"
+                        android:textColor="@color/selector_gray_light"
+                        android:textSize="@dimen/text_message"
+                        app:met_accentTypeface="fonts/IRANSansMobile.ttf"
+                        app:met_baseColor="@color/selector_gray_normal"
+                        app:met_floatingLabel="highlight"
+                        app:met_floatingLabelAlwaysShown="true"
+                        app:met_floatingLabelText="@string/firstname"
+                        app:met_floatingLabelTextColor="@color/color_accent"
+                        app:met_textColorHint="@color/selector_gray_normal"
+                        app:met_typeface="fonts/IRANSansMobile.ttf"
+                        app:met_underlineColor="@color/selector_gray_light" />
+
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/edt_surname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_left"
+                        android:layout_marginRight="@dimen/margin_right"
+                        android:gravity="left"
+                        android:inputType="text"
+                        android:singleLine="true"
+                        android:textColor="@color/selector_gray_normal"
+                        android:textSize="@dimen/text_message"
+                        app:met_accentTypeface="fonts/IRANSansMobile.ttf"
+                        app:met_baseColor="@color/selector_gray_normal"
+                        app:met_floatingLabel="highlight"
+                        app:met_floatingLabelAlwaysShown="true"
+                        app:met_floatingLabelText="@string/surname"
+                        app:met_floatingLabelTextColor="@color/color_accent"
+                        app:met_textColorHint="@color/selector_gray_normal"
+                        app:met_typeface="fonts/IRANSansMobile.ttf"
+                        app:met_underlineColor="@color/selector_gray_light" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/edt_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginRight="@dimen/margin_right"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:gravity="left"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textColor="@color/selector_gray_normal"
+                android:textSize="@dimen/text_message"
+                app:met_accentTypeface="fonts/IRANSansMobile.ttf"
+                app:met_baseColor="@color/selector_gray_normal"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelAlwaysShown="true"
+                app:met_floatingLabelText="@string/mobile"
+                app:met_floatingLabelTextColor="@color/color_accent"
+                app:met_textColorHint="@color/selector_gray_normal"
+                app:met_typeface="fonts/IRANSansMobile.ttf"
+                app:met_underlineColor="@color/selector_gray_light" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/_6sdp"
+        android:layout_marginTop="@dimen/toolbar_height"
+        android:background="@drawable/header_shadow" />
+</FrameLayout>
+

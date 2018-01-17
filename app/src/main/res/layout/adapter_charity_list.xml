@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_charity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:selectableItemBackground"
+        android:gravity="center_vertical"
+        android:padding="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img_icon"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:padding="@dimen/_4sdp"
+                    android:tint="@color/color_red_tint"
+                    app:srcCompat="@drawable/ic_circle_between_hands" />
+
+                <com.holding.medis.components.smoothcheckbox.SmoothCheckBox
+                    android:id="@+id/smooth_checkbox"
+                    android:layout_width="@dimen/_17sdp"
+                    android:layout_height="@dimen/_17sdp"
+                    android:layout_gravity="bottom|right"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:visibility="gone"
+                    app:color_checked="#149A45" />
+
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="@dimen/padding">
+
+                <com.holding.medis.components.TextViewCell
+                    android:id="@+id/txt_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding"
+                    android:textColor="@color/selector_gray_dark"
+                    android:textSize="@dimen/_12sdp"
+                    app:vc_font="IRANSansMobile_Bold"/>
+
+                <com.holding.medis.components.TextViewCell
+                    android:id="@+id/txt_topic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/padding"
+                    android:paddingRight="@dimen/padding"
+                    android:textColor="@color/selector_gray_normal"
+                    android:textSize="@dimen/_10sdp"
+                    app:vc_font="IRANSansMobile"/>
+
+                <com.holding.medis.components.TextViewCell
+                    android:id="@+id/txt_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_bottom"
+                    android:paddingLeft="@dimen/padding"
+                    android:paddingRight="@dimen/padding"
+                    android:textColor="@color/selector_gray_light"
+                    android:textSize="@dimen/_8sdp"
+                    app:vc_font="IRANSansMobile"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/selector_smoke_white_normal"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_30sdp"/>
+</LinearLayout>

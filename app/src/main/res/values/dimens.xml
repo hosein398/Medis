@@ -1,0 +1,88 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">@dimen/_14sdp</dimen>
+    <dimen name="nav_header_height">@dimen/_160sdp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">@dimen/_180sdp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="default_corner_radius">2dp</dimen>
+    <dimen name="default_shadow_radius">2dp</dimen>
+
+
+    <!-- Sizes for a square button with a system icon on it -->
+    <dimen name="square_button_icon_size">@dimen/_20sdp</dimen>
+    <dimen name="square_button_size">@dimen/_40sdp</dimen>
+    <dimen name="square_button_padding">@dimen/_8sdp</dimen>
+    <dimen name="suggestion_body_text_size">@dimen/_14sdp</dimen>
+    <dimen name="textandiconmargin">@dimen/_8sdp</dimen>
+    <dimen name="search_bar_text_size">@dimen/_14sdp</dimen>
+
+    <!-- Cards -->
+    <dimen name="card_corner_radius">3dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+
+    <!-- Selectable Items -->
+    <dimen name="selectable_rounded_rect_corner_radius">3dp</dimen>
+
+    <!-- Notification -->
+    <dimen name="notification_text_size_title">@dimen/_16sdp</dimen>
+    <dimen name="notification_text_size_subtitle">@dimen/_14sdp</dimen>
+    <dimen name="notification_dimension_default">@dimen/_8sdp</dimen>
+
+    <!-- BottomNavigationBar -->
+    <dimen name="bottom_bar_item_top_padding">@dimen/_4sdp</dimen>
+    <dimen name="bottom_bar_item_bottom_padding">@dimen/_6sdp</dimen>
+    <dimen name="bottom_bar_item_side_padding">@dimen/_8sdp</dimen>
+    <dimen name="bottom_bar_icon_size">@dimen/_15sdp</dimen>
+    <dimen name="bottom_bar_icon_top_margin_inactive">2dp</dimen>
+    <dimen name="bottom_bar_icon_top_margin_active">0dp</dimen>
+    <dimen name="bottom_bar_title_top_margin">4dp</dimen>
+    <dimen name="bottom_bar_title_inactive_font_size">@dimen/_10sdp</dimen>
+    <dimen name="bottom_bar_elevation">3dp</dimen>
+    <dimen name="bottom_bar_min_height">@dimen/_35sdp</dimen>
+
+
+    <!-- Steper -->
+    <dimen name="ms_bottom_navigation_bar_height">@dimen/_35sdp</dimen>
+    <dimen name="ms_dotted_progress_bar_dot_size">10dp</dimen>
+    <dimen name="ms_tabs_container_lateral_padding">24dp</dimen>
+
+    <dimen name="ms_nav_bar_button_margin">8dp</dimen>
+
+    <dimen name="ms_material_button_corner_radius">2dp</dimen>
+    <dimen name="ms_material_button_padding_horizontal">8dp</dimen>
+    <dimen name="ms_material_button_padding_vertical">4dp</dimen>
+
+    <dimen name="ms_progress_bar_width">96dp</dimen>
+    <dimen name="ms_progress_bar_height">3dp</dimen>
+    <dimen name="ms_navigation_button_text_size">14sp</dimen>
+    <dimen name="ms_progress_message_translation_when_hidden">6dp</dimen>
+    <dimen name="ms_progress_message_lateral_padding">24dp</dimen>
+    <dimen name="ms_progress_message_font_size">14sp</dimen>
+
+    <!-- TABS -->
+    <dimen name="ms_step_tab_height">@dimen/_40sdp</dimen>
+    <dimen name="ms_step_tab_divider_length">72dp</dimen>
+    <dimen name="ms_step_tab_divider_thickness">1dp</dimen>
+    <dimen name="ms_step_tab_counter_size">24dp</dimen>
+    <dimen name="ms_step_tab_circle_font_size">12sp</dimen>
+    <dimen name="ms_step_tab_title_font_size">@dimen/_11sdp</dimen>
+    <dimen name="ms_step_tab_subtitle_font_size">@dimen/_9sdp</dimen>
+    <dimen name="ms_step_tab_text_lateral_padding">8dp</dimen>
+
+    <!-- SunDate -->
+    <dimen name="year_width">80dp</dimen>
+    <dimen name="year_padding">5dp</dimen>
+    <dimen name="day_padding">5dp</dimen>
+    <dimen name="dialog_padding">10dp</dimen>
+    <dimen name="dialog_width">300dp</dimen>
+    <dimen name="dialog_height">440dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+
+
+
+</resources>

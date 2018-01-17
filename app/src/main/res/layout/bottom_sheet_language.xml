@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.holding.medis.components.TextViewCell
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:textColor="@color/color_accent"
+        android:padding="@dimen/padding"
+        android:text="@string/select_your_language"
+        app:vc_font="IRANSansMobile_Bold"/>
+
+    <com.holding.medis.components.ButtonCell
+        android:text="فارسی"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:id="@+id/btn_persian"
+        android:background="?android:selectableItemBackground"
+        android:textSize="@dimen/button_content"
+        android:stateListAnimator="@null"
+        android:textColor="@color/selector_gray_normal"
+        app:vc_font="IRANSansMobile"/>
+
+    <com.holding.medis.components.ButtonCell
+        android:text="English"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:id="@+id/btn_english"
+        android:background="?android:selectableItemBackground"
+        android:textSize="@dimen/button_content"
+        android:stateListAnimator="@null"
+        android:textColor="@color/selector_gray_normal"
+        app:vc_font="IRANSansMobile"/>
+</LinearLayout>

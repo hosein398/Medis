@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.holding.medis.components.flowinggradient.FlowingGradient
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:transition_drawable="@drawable/trans"
+        app:transition_duration="4000" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_launch" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:background="@color/selector_smoke_white_light"/>
+
+
+        <com.holding.medis.components.progressbutton.ProgressButton
+            android:id="@+id/btn_register"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_35sdp"
+            app:pb_color="@color/white"
+            app:pb_corener_redius="@dimen/_3sdp"
+            android:layout_gravity="center"
+            app:pb_stroke="@dimen/_2sdp"
+            app:pb_text="@string/register"
+            app:pb_text_size="@dimen/_12sdp" />
+
+        <com.holding.medis.components.ButtonCell
+            android:id="@+id/btn_guest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ButtonStyle.Borderless.ColoredText"
+            android:text="@string/login_guest"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10sdp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مدیس</string>
+    <string name="init_download">ایجاد دانلود</string>
+    <string name="start_download">شروع دانلود</string>
+    <string name="connecting">برقراری ارتباط ...</string>
+    <string name="connected">ارتباط متصل شد</string>
+    <string name="downloading">در حال دانلود ...</string>
+    <string name="Download_complete">دانلود تکمیل شد</string>
+    <string name="Download_paused">دانلود متوقف شد</string>
+    <string name="Download_Canceled">دانلود کنسل شد</string>
+    <string name="Download_Failed">دانلود انجام نشد</string>
+    <string name="select_your_language">لطفا زبان مورد نظر خود را انتخاب نمایید .</string>
+    <string name="select_your_currency">لطفا واحد پول مورد نظر خود را انتخاب نمایید .</string>
+    <string name="red">قرمز</string>
+    <string name="green">سبز</string>
+    <string name="blue">آبی</string>
+    <string name="violet">بنفش</string>
+    <string name="brown">قهوه ای</string>
+    <string name="Dark">تیره</string>
+    <string name="theme">تم</string>
+    <string name="verify">اعتبار سنجی</string>
+    <string name="enter_verify_code_for_check">لطفا کد ارسالی را وارد نمایید .</string>
+    <string name="cancell">بازگشت</string>
+    <string name="version">نسخه ی</string>
+    <string name="try_again">تلاش مجدد</string>
+    <string name="all">همه</string>
+    <string name="totoal_amount">مبلغ کل</string>
+    <string name="search_hint">جستجو</string>
+    <string name="share">اشتراک گذاری</string>
+    <string name="download">دانلود</string>
+    <string name="stop">توقف</string>
+    <string name="open">مشاهده</string>
+    <string name="skip">رد کردن</string>
+    <string name="content">متن</string>
+    <string name="topic">موضوع</string>
+    <string name="ok">تایید</string>
+    <string name="register">ایجاد حساب کاربری</string>
+    <string name="login_guest">ورود به عنوان مهمان</string>
+    <string name="please_wait">لطفا کمی صبر کنید ...</string>
+    <string name="mobile">موبایل</string>
+    <string name="firstname">نام</string>
+    <string name="surname">نام خانوادگی</string>
+    <string name="fill_field_start">لطفا فیلد مورد نظر را ابتدا پر نمایید .</string>
+    <string name="mobile_number_entered_is_not_valid">شماره موبایل وارد شده معتبر نمی باشد .</string>
+    <string name="email_entered_is_not_valid">ایمیل وارد شده معتبر نمی باشد .</string>
+    <string name="English">انگلیسی</string>
+    <string name="Persian">فارسی</string>
+    <string name="Arabic">عربی</string>
+    <string name="French">فرانسوی</string>
+    <string name="German">آلمانی</string>
+    <string name="did_not_get_code">عدم دریافت کد!</string>
+    <string name="VerificationHelp">کد اعتبار سنجی برای شما ارسال شد . درصورتی که بعد از اتمام زمان آن را دریافت نکردید بر روی لینکی که ایجاد میشود کلیک نمایید.</string>
+    <string name="ms_back">قبلی</string>
+    <string name="ms_next">بعدی</string>
+    <string name="ms_complete">تمام</string>
+    <string name="select_charity">خیریه</string>
+    <string name="select_price">قیمت</string>
+    <string name="select_date">انتخاب تاریخ</string>
+    <string name="review">بازبینی</string>
+    <string name="user_account">حساب کاربری</string>
+    <string name="random_selection">انتخاب تصادفی</string>
+    <string name="recognizer_not_present">جستجوی صوتی وجود ندارد.</string>
+    <string name="selected_charities">ابتدا از لیست خیریه های زیر ؛ خیریه و یا خیریه های مورد نظر خود را انتخاب نمایید .</string>
+    <string name="your_information">اطلاعات شما</string>
+    <string name="settings">تنظیمات</string>
+    <string name="Log_out">خروج از حساب کاربری</string>
+    <string name="my_language">فارسی</string>
+    <string name="amount">مبلغ</string>
+    <string name="rial">ریال</string>
+    <string name="toman">تومان</string>
+    <string name="dollar">دلار</string>
+    <string name="set_price_for_charities">شما می توانید برای هر یک از خیریه های انتخاب شده هزینه ای را اختصاص دهید .</string>
+    <string name="ok_btn">تائید</string>
+    <string name="cancel_btn">انصراف</string>
+
+    <string name="ms_circle_path">M 12,0
+            C 2.7795742,0.00373968 -2.992,9.9726253 1.5957031,17.970703
+            C 3.7552647,21.714092 7.7149163,23.999508 12,24
+            c 4.279501,-0.0061 8.231906,-2.290736 10.373047,-5.996094
+            C 26.973642,9.9673078 21.210345,0.01252246 12,0
+            M 12.947579,15.161259
+            l 0,0 0,0 0,0 0,0 Z
+            m 0,-3.790315
+            l 0,0 0,0 0,0 0,0 Z</string>
+    <string name="ms_warning_path">M 12,0
+            C 1.5957031,17.970703 12,0 1.5957031,17.970703
+            C 12,17.971 7.7149163,17.970508 12,17.971
+            c 4.279501,-0.0061 0,0 10.373047,0.03291
+            C 12,0 22.423827,18.003906 12,0
+            M 12.947579,15.161259
+            l -1.895158,0 0,-1.895157 1.895158,0 0,1.895157 Z
+            m 0,-3.790315
+            l -1.895158,0 0,-3.7903149 1.895158,0 0,3.7903149 Z</string>
+</resources>
